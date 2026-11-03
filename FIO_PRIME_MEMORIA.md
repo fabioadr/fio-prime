@@ -1,7 +1,7 @@
 ---
 title: "Fio Prime — memória operacional e estratégica (índice)"
 slug: "fio-prime-memoria"
-version: "1.1.0"
+version: "1.2.0"
 updated_at: "2026-11-03"
 language: "pt-BR"
 project: "Fio Prime"
@@ -24,6 +24,7 @@ status: "indice-e-resumo"
 | --- | --- | --- |
 | [`empresa/identidade.md`](empresa/identidade.md) | Dados cadastrais, canais, regime informado e diretrizes de gestão. | §1 |
 | [`canais/shopee-ads.md`](canais/shopee-ads.md) | Shopee: particularidades, métricas, manual de análise de Ads e roteiro das meias masculinas Hoahi. | §2.1 e §5 |
+| [`canais/site-proprio.md`](canais/site-proprio.md) | Site próprio e captação de clientes de marketplace (11/2026). | novo (1.2.0) |
 | [`canais/mercado-livre.md`](canais/mercado-livre.md) | Atendimento e caso histórico de conciliação. | §2.2 |
 | [`canais/tiktok.md`](canais/tiktok.md) | Estratégia comercial (plano, não implantado). | §2.3 |
 | [`canais/amazon.md`](canais/amazon.md) | Custos e categorização (estudo, sem operação presumida). | §2.4 |
@@ -39,6 +40,8 @@ status: "indice-e-resumo"
 | [`historico/cronologia.md`](historico/cronologia.md) | Eventos datados do projeto (maio–outubro/2026). | §13 |
 | [`GOVERNANCA.md`](GOVERNANCA.md) | Legenda de status, hierarquia de conflitos, glossário, regra de atualização e autoverificação. | §0, §14, §15.4 e §16 |
 | [`historico/decisoes.md`](historico/decisoes.md) | Modelos e log de decisões/experimentos | §15.1–15.2 |
+| [`agentes/`](agentes/README.md) · [`skills/`](skills/README.md) · [`comandos/`](comandos/README.md) | Papéis, procedimentos (Agent Skills) e atalhos `/comando`, agnósticos de LLM | novo (1.2.0) |
+| [`docs/COMO_USAR.md`](docs/COMO_USAR.md) · [`CONTRIBUTING.md`](CONTRIBUTING.md) | Uso em cada ferramenta e fluxo de colaboração da equipe | novo (1.2.0) |
 
 Regras de uso, status de confiança e hierarquia de fontes: [`GOVERNANCA.md`](GOVERNANCA.md). Instruções de comportamento: [`INSTRUCOES_PROJETO_FIO_PRIME.md`](INSTRUCOES_PROJETO_FIO_PRIME.md). Ponto de entrada para LLMs: [`AGENTS.md`](AGENTS.md).
 
@@ -70,3 +73,10 @@ Em fiscal, há compras da **Altomax**, relatada como fabricante no **Paraguai** 
 
 - Conteúdo dividido em arquivos temáticos (empresa, canais, catálogo, operação, fiscal, histórico) sem alteração de texto; este arquivo vira índice + resumo.
 - Adicionados `AGENTS.md`, `CLAUDE.md`, `.gitignore`, `.gitattributes` e versionamento git.
+
+### 1.2.0 — 2026-11-03
+
+- Adicionados `agentes/`, `skills/` (formato aberto Agent Skills) e `comandos/`, todos agnósticos de LLM.
+- `AGENTS.md` e `INSTRUCOES_PROJETO_FIO_PRIME.md` sem referência a uma LLM específica; `CLAUDE.md` e `GEMINI.md` são apenas ponteiros.
+- Novos: `README.md`, `CONTRIBUTING.md`, `docs/COMO_USAR.md`, `canais/site-proprio.md`.
+- Registrados: regra de descrição Shopee em texto puro (12/10/2026) e a iniciativa de captação via etiqueta/WhatsApp (11/2026).

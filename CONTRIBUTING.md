@@ -17,15 +17,21 @@ Este repositório é editado por várias pessoas e por várias LLMs. As regras a
 Mudanças triviais (erro de digitação, link quebrado) podem ir direto ao `main`, se o responsável permitir.
 
 ## Padrão de commit
-`tipo: assunto curto em português`. Tipos: `feat` (skill, agente, comando ou seção nova), `fato` (registro de informação), `decisao` (decisão aprovada), `fix` (correção), `docs` (guias), `refactor` (reorganização sem mudar conteúdo), `chore` (manutenção). Se uma LLM ajudou, mantenha a linha de coautoria que a ferramenta adicionar.
+`tipo: assunto curto em português`. Tipos: `feat` (skill ou documento novo), `fato` (registro de informação), `decisao` (decisão aprovada), `fix` (correção), `docs` (guias), `refactor` (reorganização sem mudar conteúdo), `chore` (manutenção). Se uma LLM ajudou, mantenha a linha de coautoria que a ferramenta adicionar.
 
 ## Regras de conteúdo
-- Todo fato com **status** (legenda em `GOVERNANCA.md`), **data do fato**, data de inclusão e **fonte**.
+- Todo fato com **status** (legenda em `docs/governanca/status-e-fontes.md`; regra em `docs/governanca/atualizacao.md`), **data do fato**, data de inclusão e **fonte**.
 - **Não apague histórico:** valores antigos ficam marcados como históricos.
 - Cada fato mora em **um** arquivo temático; os outros apontam para ele.
-- Proposta não é decisão: decisões só em `historico/decisoes.md`, com aprovação.
+- Proposta não é decisão: decisões só em `docs/historico/decisoes.md`, com aprovação.
 - **Proibido versionar:** credenciais, e-CNPJ, XMLs de NF-e, chaves de acesso, exports com dados pessoais de clientes. O `.gitignore` bloqueia parte disso, mas a responsabilidade é de quem faz o commit.
-- **Agnóstico de LLM:** nada de regra, skill ou comando que funcione só em uma ferramenta. Configurações específicas de ferramenta ficam fora do repositório ou são só ponteiros para `AGENTS.md`.
+- **Padrões abertos, não estruturas próprias:** tudo que é de IA segue os padrões de mercado (`AGENTS.md` na raiz, skills em `.agents/skills/<nome>/SKILL.md`). Não crie pastas de IA inventadas nem arquivos de uma ferramenta só; configurações locais de ferramenta ficam fora do git.
+- **Arquivos pequenos:** um tema por arquivo. Se um arquivo passar de ~80 linhas, divida e atualize `docs/README.md`.
+- Mudanças relevantes vão para o `CHANGELOG.md`.
 
-## Criar agente, skill ou comando
-Veja os modelos em `agentes/README.md`, `skills/README.md` e `comandos/README.md`. Depois, atualize as tabelas desses READMEs e de `AGENTS.md`.
+## Criar uma skill ou um documento
+- **Skill:** siga `.agents/skills/README.md` e adicione-a à tabela do `AGENTS.md`.
+- **Documento:** crie-o na pasta do tema em `docs/`, com cabeçalho (`title`, `origem`, `atualizado_em`, `resumo`), e adicione-o a `docs/README.md`.
+
+## O que fica fora do repositório
+Rascunhos, exports com dados, XMLs e arquivos pessoais ficam fora desta pasta (ou em caminhos ignorados pelo `.gitignore`). Só entra no git o que for conhecimento compartilhável da Fio Prime.

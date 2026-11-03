@@ -1,4 +1,4 @@
-# Segurança: nunca versionar dados sensíveis (ver FIO_PRIME_MEMORIA.md, seção 15.4)
+# Segurança: nunca versionar dados sensíveis (ver docs/governanca/atualizacao.md e CONTRIBUTING.md)
 # Certificado digital / credenciais
 *.pfx
 *.p12
@@ -16,6 +16,14 @@ dados/raw/
 dados/exports/
 dados/*.csv
 dados/*.xlsx
+
+# Configurações e cópias locais de ferramentas de IA (a fonte única é AGENTS.md + .agents/skills)
+.claude/
+.gemini/
+.cursor/
+.codex/
+.opencode/
+.github/skills/
 
 # Sistema / editor
 .DS_Store

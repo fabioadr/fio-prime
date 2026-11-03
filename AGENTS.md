@@ -1,11 +1,11 @@
 # AGENTS.md — Fio Prime
 
-Base de conhecimento da **Fio Prime** (e-commerce de meias/vestuário, Juiz de Fora/MG, vendas só on-line; Simples Nacional segundo relato de 09/2026). **Agnóstica de LLM**: vale para qualquer modelo ou ferramenta e é compartilhada pela equipe. Leia este arquivo; **abra os demais só quando a tarefa pedir**.
+Base de conhecimento da **Fio Prime** (e-commerce de meias e vestuário, Juiz de Fora/MG, vendas só on-line; Simples Nacional segundo relato de 09/2026). Segue os padrões abertos — `AGENTS.md` e Agent Skills em `.agents/skills/` — e vale para qualquer LLM ou ferramenta. É compartilhada pela equipe. Leia este arquivo; **abra os demais só quando a tarefa pedir**.
 
 ## Regras que valem sempre
 1. Responda em **português do Brasil**, objetivo e operacional; mostre premissas, cálculos, riscos e próximos passos.
 2. Use **apenas** o contexto da Fio Prime. Nunca importe fatos de outros projetos ou negócios.
-3. Separe **fato confirmado**, **relato datado**, **proposta** e **informação pendente** (legenda em `GOVERNANCA.md`). Proposta ≠ decisão; discutido ≠ implementado.
+3. Separe **fato confirmado**, **relato datado**, **proposta** e **informação pendente** (`docs/governanca/status-e-fontes.md`). Proposta ≠ decisão; discutido ≠ implementado.
 4. Dados mudam (taxas, regras de marketplace, legislação, preços, estoque). Pesquise fora só com autorização; senão, sinalize a necessidade de verificar.
 5. Priorize **lucro de contribuição e caixa**. ROAS alto ≠ lucro. Dado ausente ≠ desempenho ruim (anúncio pausado por falta de estoque não é anúncio ruim).
 6. Atendimento: **"Ana da Fio Prime"**; **nunca peça ao comprador para cancelar pedido na Shopee**; cupom só com autorização.
@@ -19,36 +19,25 @@ Base de conhecimento da **Fio Prime** (e-commerce de meias/vestuário, Juiz de F
 - **Marcas:** Hoahi, Rafa Parize; compras da Altomax. **Campeões (08/2026):** kits 3 pares sapatilha *super invisível* e *invisível* Hoahi 33–38. **Estoque lento:** kits soquete Rafa Parize 33–38.
 - Kit de 3 pares ≠ par avulso; SKU, variação e marca não são intercambiáveis.
 
-## Agentes, skills e comandos
-- **Mensagem começando com `/nome`** → abra `comandos/nome.md` e execute (lista em `comandos/README.md`).
-- **"Atue como X"** → leia `agentes/X.md` (lista em `agentes/README.md`).
-- **Tarefa que corresponde a uma skill** → leia `skills/<skill>/SKILL.md` antes de executar (formato aberto Agent Skills).
+## Skills (`.agents/skills/<nome>/SKILL.md`)
+Antes de uma tarefa que corresponda a uma skill, leia o `SKILL.md` dela. Mensagem iniciada por `/<nome>` (ou `$<nome>`) = executar essa skill com o restante da mensagem como entrada.
 
 | Skill | Quando |
 | --- | --- |
 | `analise-shopee-ads` | ROAS, CTR, CPC, anúncio ruim, pausar/escalar |
 | `otimizacao-anuncio` · `redacao-anuncio` | Melhorar anúncio · escrever título/descrição |
 | `briefing-imagem-produto` · `roteiro-video-produto` | Imagem de produto · vídeo curto |
-| `atendimento-cliente` | Responder comprador |
+| `atendimento-cliente` | Responder comprador como Ana |
 | `giro-estoque-lento` | Estoque parado, combo, desconto |
 | `conciliacao-marketplace` | Débito, crédito ou devolução sem explicação |
 | `preparacao-fiscal` | Simples, ICMS, CNAE, NF-e, importação |
 | `registro-conhecimento` · `revisao-final` | Atualizar a base · checar antes de entregar |
 
-## Onde achar o detalhe (abra sob demanda)
-| Tema | Arquivo |
-| --- | --- |
-| Mapa completo e resumo de partida | `FIO_PRIME_MEMORIA.md` |
-| Status, hierarquia de fontes, glossário, autoverificação | `GOVERNANCA.md` |
-| Empresa | `empresa/identidade.md` |
-| Canais | `canais/shopee-ads.md` · `canais/mercado-livre.md` · `canais/site-proprio.md` · `canais/tiktok.md` · `canais/amazon.md` |
-| Produtos · preço/giro · criativos | `catalogo/produtos.md` · `catalogo/precificacao-e-portfolio.md` · `catalogo/fotografia-e-criativos.md` |
-| Atendimento · estoque/Bling · conciliação · playbooks | `operacao/atendimento-ana.md` · `operacao/estoque-bling.md` · `operacao/conciliacao-financeira.md` · `operacao/playbooks.md` |
-| Fiscal e importação | `fiscal/enquadramento-e-importacao.md` |
-| Cronologia · decisões · lacunas | `historico/cronologia.md` · `historico/decisoes.md` · `historico/lacunas-de-dados.md` |
+## Documentação
+Índice completo, com "quando ler" para cada arquivo: **`docs/README.md`**. Áreas: `docs/empresa/`, `docs/canais/` (Shopee em `docs/canais/shopee/`), `docs/catalogo/` (fichas por produto em `fichas/`), `docs/operacao/`, `docs/fiscal/`, `docs/historico/` (cronologia, decisões, lacunas), `docs/governanca/` (status, atualização, glossário, autoverificação).
 
 ## Manter a base e colaborar
-- Várias pessoas e várias LLMs editam este repositório. Siga `CONTRIBUTING.md` e a skill `registro-conhecimento`: status, data e fonte em todo fato; histórico preservado; decisões só com aprovação.
-- **Tudo agnóstico:** regras, agentes, skills e comandos ficam nas pastas comuns. Arquivos específicos de ferramenta (ex.: `CLAUDE.md`, `GEMINI.md`) só **apontam** para este arquivo e não têm conteúdo próprio.
-- **Git:** commits pequenos, `tipo: assunto` em português; `git status`/`git diff` antes de commitar; nunca `--force` ou `reset --hard` sem pedido. Original da memória v1.0.0: `git show f655289:FIO_PRIME_MEMORIA.md`.
-- **Agentes em sandbox sem permissão para apagar arquivos** (pasta montada): o git deixa `.lock` em `.git` e os comandos seguintes falham com `File exists`. Peça ao usuário a permissão de exclusão uma vez por sessão e remova só `.lock` órfãos (nunca o de um git em execução).
+- Várias pessoas e várias LLMs editam este repositório. Siga `CONTRIBUTING.md` e a skill `registro-conhecimento`: status, data e fonte em todo fato; histórico preservado; decisões só com aprovação; mudanças relevantes no `CHANGELOG.md`.
+- **Padrões, não estruturas próprias:** o que é de IA segue os padrões abertos (`AGENTS.md`, `.agents/skills/`). O que é do negócio fica em `docs/`. Configurações específicas de ferramenta não são versionadas (ver `.gitignore`).
+- **Git:** commits pequenos, `tipo: assunto` em português; `git status`/`git diff` antes de commitar; nunca `--force` ou `reset --hard` sem pedido.
+- **Agentes em sandbox sem permissão para apagar arquivos:** o git deixa `.lock` em `.git` e os comandos seguintes falham com `File exists`. Peça ao usuário a permissão de exclusão uma vez por sessão e remova só `.lock` órfãos.

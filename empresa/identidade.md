@@ -22,7 +22,7 @@ resumo: "Dados cadastrais, canais, regime informado e diretrizes de gestão."
 | Plataformas estudadas/adicionais | **TikTok** (estratégias comerciais), **Amazon** (comissões/categorias/Bling) | PEDIDO/PLANO; estágio de implementação não comprovado |
 | Certificado digital | Disponibilidade de **e-CNPJ** | CONFIRMADO NO PROJETO, 2026 |
 | Endereço comercial | Desejo de alterar o endereço para um escritório via JUCEMG | PEDIDO/PLANO, 24/09/2026; conclusão não documentada |
-| E-commerce próprio / plataforma tecnológica | Não demonstrados de modo suficiente no conteúdo acessível | A VALIDAR |
+| E-commerce próprio / plataforma tecnológica | Site `fioprime.com.br` mencionado em 11/2026, com a Nuvemshop citada como plataforma; ver `canais/site-proprio.md` (antes de 11/2026: não demonstrado) | RELATO DATADO; detalhes A VALIDAR |
 | Receita, faturamento, margem, CMV, ticket médio, número de pedidos | Não consolidados | A VALIDAR |
 
 ## 1.1. Diretrizes de gestão implícitas no trabalho do projeto

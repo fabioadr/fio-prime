@@ -31,3 +31,6 @@ resumo: "Eventos datados do projeto (maio–outubro/2026)."
 | **24/09/2026** | Fiscal e Altomax | Simples Nacional, comércio online em JF/MG; origem Paraguai; recomposição ICMS aproximada; XMLs e cadastro `004HOWT23283` | CONFIRMADO / RELATO DATADO |
 | **12/10/2026** | Shopee Ads | Solicitação de análise para melhorar ROAS; variações fora de estoque afetam continuidade dos anúncios; foco em duas meias masculinas Hoahi | PEDIDO / RELATO DATADO |
 | **12/10/2026** | Consolidação de memória | Instruções de projeto e baseline Markdown reutilizável para LLMs | DOCUMENTAÇÃO |
+| **12/10/2026** | Descrições Shopee | Instrução: descrições de anúncio da Shopee em texto puro, sem formatação e sem emojis | CONFIRMADO NO PROJETO |
+| **início de 11/2026** | Site próprio / captação | Folder com QR e cupom pouco efetivo; direção: etiqueta térmica com QR para WhatsApp, segmentada fem./masc. (ver `canais/site-proprio.md`) | RELATO DATADO / PEDIDO-PLANO |
+| **03/11/2026** | Repositório da base | Base versionada em git, dividida em arquivos temáticos, com agentes, skills e comandos agnósticos de LLM | DOCUMENTAÇÃO |

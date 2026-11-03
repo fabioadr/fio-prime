@@ -38,6 +38,8 @@ resumo: "Padrão de imagens de meias, copy/vídeo, checklist de publicação."
 - Favorecer demonstração de conforto, ajuste, discrição e kit de 3 pares, sem inferir especificações não informadas.
 - Copy orientada a conversão, mas sem alegações absolutas, falsas urgências ou garantias de ajuste universal.
 
+**Descrições de anúncio na Shopee (instrução do usuário, 12/10/2026):** texto puro, sem negrito ou outra formatação e sem emojis. Ver a skill `redacao-anuncio`.
+
 ## 6.3. Checklist antes de publicar criativo
 
 - [ ] SKU, cor e tamanho correspondem ao anúncio?

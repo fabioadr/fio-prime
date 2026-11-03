@@ -1,0 +1,28 @@
+# Segurança: nunca versionar dados sensíveis (ver FIO_PRIME_MEMORIA.md, seção 15.4)
+# Certificado digital / credenciais
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+.env
+.env.*
+secrets/
+credenciais/
+
+# Documentos fiscais e exports com dados de clientes
+*.xml
+dados/raw/
+dados/exports/
+dados/*.csv
+dados/*.xlsx
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp
+*.bak
+~$*

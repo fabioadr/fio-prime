@@ -32,6 +32,7 @@
 | [`catalogo/altomax-fitness-canelado.md`](catalogo/altomax-fitness-canelado.md) | Linha Altomax Fitness Canelado (top, bermuda, legging, macacão): refs, composição, divergências |
 | [`catalogo/altomax-fitness-para-anuncios.md`](catalogo/altomax-fitness-para-anuncios.md) | Fitness Altomax: insumos, limites e lacunas para títulos, descrições e fotos |
 | [`catalogo/skus-altomax-fitness-canelado.md`](catalogo/skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN da linha Altomax Fitness Canelado |
+| [`catalogo/termos-de-busca-fitness.md`](catalogo/termos-de-busca-fitness.md) | Termos de busca da linha fitness |
 | [`catalogo/desempenho-portfolio.md`](catalogo/desempenho-portfolio.md) | Campeões e estoque lento |
 | [`catalogo/precificacao-e-giro.md`](catalogo/precificacao-e-giro.md) | Margem unitária, giro de estoque |
 | [`catalogo/criativos.md`](catalogo/criativos.md) | Fotografia, copy, vídeo, checklist de publicação |
@@ -44,6 +45,7 @@
 | [`operacao/estoque-para-anuncios.md`](operacao/estoque-para-anuncios.md) | Estoque por variação x anúncios |
 | [`operacao/cadastro-de-produto.md`](operacao/cadastro-de-produto.md) | Campos de cadastro de produto |
 | [`operacao/anuncio-textil-dados-obrigatorios.md`](operacao/anuncio-textil-dados-obrigatorios.md) | Dados da etiqueta têxtil que devem aparecer no anúncio |
+| [`operacao/condicoes-comerciais.md`](operacao/condicoes-comerciais.md) | Nota fiscal, envio, troca e garantia nos anúncios |
 | [`docs/operacao/conciliacao-financeira.md`](operacao/conciliacao-financeira.md) | Conciliação de vendas e devoluções |
 | [`fiscal/situacao-e-cnaes.md`](fiscal/situacao-e-cnaes.md) | Simples, Altomax, ICMS relatado, CNAEs |
 | [`fiscal/societario-e-importacao.md`](fiscal/societario-e-importacao.md) | JUCEMG, endereço, importação própria |

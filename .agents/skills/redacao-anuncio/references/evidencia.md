@@ -16,5 +16,8 @@ Toda afirmação de título ou descrição precisa de um nível. O status do fat
 - **Texto do fornecedor:** frases dirigidas ao lojista não vão para o consumidor.
 - **Concorrente:** serve para descobrir termos e dúvidas, não como prova de atributo do nosso produto.
 
+## Observação do responsável sem teste vestindo
+Se o responsável afirmar algo de nível C depois de avaliar a peça, registre na ficha como RELATO DATADO, com o limite da avaliação. Pode entrar no texto, com o limite sinalizado na entrega. Se ele disser que não sabe, fica de fora.
+
 ## Como registrar um teste de nível C
 Na ficha do produto: o que foi testado, peça, cor e tamanho, medidas e altura de quem vestiu, resultado, data e quem informou.

@@ -15,6 +15,7 @@ metadata:
 - `docs/catalogo/README.md`: a ficha do SKU exato. Linha fitness: também `docs/catalogo/altomax-fitness-para-anuncios.md`.
 - Regras do canal: `docs/canais/shopee/regras-de-anuncio.md` ou `docs/canais/mercado-livre.md`. Verifique a data: regras mudam.
 - Roupa: `docs/operacao/anuncio-textil-dados-obrigatorios.md`.
+- Nota fiscal, envio, troca e garantia: `docs/operacao/condicoes-comerciais.md`.
 - Método, nesta pasta: [`references/evidencia.md`](references/evidencia.md), [`references/titulo.md`](references/titulo.md) e [`references/descricao.md`](references/descricao.md).
 
 ## Entradas
@@ -23,7 +24,7 @@ SKU ou linha-mãe, canais, variações com estoque, condições comerciais confi
 ## Passos
 1. **Escopo:** confirme produto, canais e unidade comercial (peça avulsa, par ou kit).
 2. **Ficha de fatos:** classifique cada afirmação por nível de evidência (`references/evidencia.md`).
-3. **Termos de busca:** defina o termo principal e os sinônimos com dados reais: sugestões da busca do canal, ferramenta de palavras-chave do canal ou prints do usuário. Pesquisa externa só com autorização (`AGENTS.md`). Sem dados, o termo é hipótese e deve ser marcado assim.
+3. **Termos de busca:** defina o termo principal e os sinônimos com dados reais: sugestões da busca do canal, ferramenta de palavras-chave do canal ou prints do usuário. Pesquisa externa só com autorização (`AGENTS.md`); nunca resolva captcha nem faça login no lugar do usuário. Sem dados, o termo é hipótese e deve ser marcado assim. Registre o que for útil em `docs/catalogo/` (exemplo: `termos-de-busca-fitness.md`).
 4. **Pendências, antes de escrever a versão final:** liste o que falta, separando o que bloqueia do que só limita o texto, e **pergunte ao usuário**. Peça só o mínimo. Dúvida sem resposta vira omissão, nunca suposição.
 5. **Título:** escreva por canal (`references/titulo.md`) e conte os caracteres com uma ferramenta, não de cabeça.
 6. **Descrição:** siga a ordem fixa (`references/descricao.md`).

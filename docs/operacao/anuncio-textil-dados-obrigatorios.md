@@ -27,6 +27,9 @@ As informações da etiqueta física também devem estar disponíveis no anúnci
 - O texto deve ser claro, preciso e em português.
 - O guia também sugere referências de medidas do corpo e evita descrições genéricas sem especificação.
 
+## Decisão da Fio Prime (FP-DEC-2026-002)
+No texto do anúncio, a identificação é só pela **marca**, sem CNPJ. O guia lista a identificação fiscal entre as informações; uma foto nítida da etiqueta na galeria atende a esse ponto sem poluir o texto. CRITÉRIO RECOMENDADO: incluir essa foto.
+
 ## Risco citado no guia
 Retirada do produto da plataforma, advertência e multa pelos órgãos competentes.
 

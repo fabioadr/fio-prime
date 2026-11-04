@@ -28,7 +28,7 @@ resumo: "O que pode entrar em título, descrição e foto da linha fitness Altom
 
 ## Limites
 - Peça avulsa, não kit. Variação (cor e tamanho) exata pelo SKU; anunciar só tamanhos comprados (M, G, GG). *(CRITÉRIO RECOMENDADO)*
-- Shopee: descrição em **texto puro, sem formatação e sem emojis** (`AGENTS.md`).
+- Shopee: descrição em **texto puro, sem formatação e sem emojis** (`AGENTS.md`). Condições comerciais: `docs/operacao/condicoes-comerciais.md`.
 - Não alegar: sustentação ou impacto, efeito modelador ou compressão, secagem rápida, proteção UV, ajuste universal ou "não marca" como garantia. Os benefícios dos ícones entram como declaração do produto, sem ir além.
 - Não usar as frases do catálogo dirigidas ao lojista ("fideliza cliente", "impulsiona as vendas").
 - Público: **feminino** em toda a linha (relato do Fábio, 03/11/2026); a etiqueta não declara, então o dado vem do Fábio.
@@ -36,12 +36,12 @@ resumo: "O que pode entrar em título, descrição e foto da linha fitness Altom
 ## Dúvidas que cada anúncio precisa responder (CRITÉRIO RECOMENDADO)
 | Peça | Dúvidas | O que a base já responde |
 | --- | --- | --- |
-| Legging | Fica transparente? Desce? O comprimento serve para a minha altura? | Cintura alta, medidas do corpo, medidas da peça. Transparência e "não desce": exigem prova |
+| Legging | Fica transparente? Desce? O comprimento serve para a minha altura? | Cintura alta, medidas do corpo e da peça, tecido grosso e não transparente (relato do Fábio). "Não desce": não alegar |
 | Bermuda | Enrola na coxa? Qual o comprimento? | Cintura alta, medidas do corpo. Enrolar: exige prova |
 | Macacão | Cabe no tronco? É curto? | Comprimento curto, medidas do corpo. Tronco: exige prova |
 | Top | Sustenta sem bojo? Aperta? | Sem bojo, alça larga, medidas do corpo. Sustentação: não alegar sem prova |
 
-**Termos de busca a validar, sem dados ainda:** legging ou calça legging; bermuda, short ou ciclista; macacão ou macaquinho; top ou top sem bojo.
+**Termos de busca:** [`termos-de-busca-fitness.md`](termos-de-busca-fitness.md). A validar nas próximas peças: bermuda, short ou ciclista; macacão ou macaquinho; top ou top sem bojo.
 
 ## Fotos (CRITÉRIO RECOMENDADO, aguarda aprovação do Fábio)
 O trabalho de fotos, títulos e descrições será feito em outra conversa; esta seção é o ponto de partida.
@@ -51,6 +51,5 @@ Adaptação ao fitness da regra de fotografia de meias (`criativos.md`): peça c
 - Fotos reais de cada peça e cor; peso e dimensões da embalagem.
 - Nome comercial final de cada peça e os termos que o consumidor busca (pesquisa só com autorização).
 - Prova vestindo por peça, cor e tamanho, para as dúvidas acima; registrar na ficha (skill `redacao-anuncio`, `references/evidencia.md`).
-- Foto da etiqueta com o bloco de origem e importador da legging (a foto registrada não mostra).
 - Preço de venda, custo e margem por SKU (base para preço e Ads).
 - GTIN dos 6 SKUs em aberto, ao receber a NF-e.

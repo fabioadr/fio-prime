@@ -13,8 +13,8 @@ Quem chega à descrição já está avaliando a compra. Ela responde às dúvida
    - o que fazer entre dois tamanhos, só se houver prova;
    - altura e tamanho usado pela modelo, se houver.
 5. **O que você recebe:** quantidade e o que é vendido separadamente.
-6. **Informações do produto:** marca, identificação fiscal, composição, país de origem, conservação e tamanho (`docs/operacao/anuncio-textil-dados-obrigatorios.md`).
-7. **Condições:** nota fiscal, envio, troca e garantia, só se confirmadas para este produto e permitidas pelo canal.
+6. **Informações do produto:** marca, composição, país de origem, conservação e tamanho. Identificação fiscal: não entra no texto; recomende a foto da etiqueta (`docs/operacao/anuncio-textil-dados-obrigatorios.md`).
+7. **Condições:** só o que estiver em `docs/operacao/condicoes-comerciais.md` e for permitido pelo canal.
 
 Para produto que não é roupa, mantenha a ordem e ajuste os itens 4 e 6 ao tipo de produto.
 

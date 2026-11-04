@@ -2,6 +2,10 @@
 
 Mudanças relevantes na base de conhecimento da Fio Prime. Versionamento: PATCH = correção; MINOR = conteúdo novo; MAJOR = mudança estrutural ou de regras de interpretação.
 
+## 2.1.1 — 2026-11-03
+
+- `CONTRIBUTING.md`: fluxo sem pull request; branches por assunto com merge direto na `main`, após aprovação do responsável.
+
 ## 2.1.0 — 2026-11-03
 
 - Novo: linha **Altomax Fitness Canelado** (top, bermuda, legging, macacão): visão geral com ícones e benefícios, 4 fichas em `docs/catalogo/fichas/` e `docs/catalogo/skus-altomax-fitness-canelado.md` (36 SKUs nos tamanhos M, G e GG: 30 com GTIN e 6 em aberto até a NF-e). Fontes: catálogo Altomax 2026 (sem preços e contatos), fotos de etiquetas e planilha de SKUs.

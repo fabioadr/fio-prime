@@ -7,14 +7,14 @@ Este repositório é editado por várias pessoas e por várias LLMs. As regras a
 - **Equipe:** usa a base, propõe correções e registra fatos com fonte. Qualquer um pode abrir uma proposta de mudança.
 - **LLMs:** propõem e redigem; **não decidem**. Toda alteração feita por LLM é revisada por uma pessoa antes do merge.
 
-## Fluxo (quando o repositório remoto estiver configurado)
-1. `git pull` para atualizar.
+## Fluxo (sem pull request)
+1. `git switch main` e `git pull` para atualizar.
 2. Crie um branch: `git switch -c tipo/assunto` (ex.: `fato/estoque-rafa-parize`, `skill/nova-skill`).
 3. Edite e confira com `git diff`.
-4. Commit pequeno e temático (padrão abaixo) e `git push`.
-5. Abra um pull request; o responsável revisa e faz o merge.
+4. Commit pequeno e temático (padrão abaixo).
+5. O responsável aprova o diff (na conversa ou no terminal). Depois, merge na `main`: `git switch main`, `git merge --no-ff tipo/assunto` e `git push`.
 
-Mudanças triviais (erro de digitação, link quebrado) podem ir direto ao `main`, se o responsável permitir.
+Não se abre pull request. Uma LLM só faz o merge depois da aprovação do responsável.
 
 ## Padrão de commit
 `tipo: assunto curto em português`. Tipos: `feat` (skill ou documento novo), `fato` (registro de informação), `decisao` (decisão aprovada), `fix` (correção), `docs` (guias), `refactor` (reorganização sem mudar conteúdo), `chore` (manutenção). Se uma LLM ajudou, mantenha a linha de coautoria que a ferramenta adicionar.

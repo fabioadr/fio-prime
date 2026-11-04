@@ -28,6 +28,9 @@
 | --- | --- |
 | [`catalogo/README.md`](catalogo/README.md) | Marcas, regra de dados por SKU, lista de fichas |
 | [`catalogo/fichas/`](catalogo/README.md#arquivos-do-catálogo) | Atributos de um produto específico |
+| [`catalogo/altomax-fitness-canelado.md`](catalogo/altomax-fitness-canelado.md) | Linha Altomax Fitness Canelado (top, bermuda, legging, macacão): refs, composição, divergências |
+| [`catalogo/altomax-fitness-para-anuncios.md`](catalogo/altomax-fitness-para-anuncios.md) | Fitness Altomax: insumos, limites e lacunas para títulos, descrições e fotos |
+| [`catalogo/skus-altomax-fitness-canelado.md`](catalogo/skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN da linha Altomax Fitness Canelado |
 | [`catalogo/desempenho-portfolio.md`](catalogo/desempenho-portfolio.md) | Campeões e estoque lento |
 | [`catalogo/precificacao-e-giro.md`](catalogo/precificacao-e-giro.md) | Margem unitária, giro de estoque |
 | [`catalogo/criativos.md`](catalogo/criativos.md) | Fotografia, copy, vídeo, checklist de publicação |

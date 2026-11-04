@@ -15,6 +15,7 @@ resumo: "Dados cadastrais, canais, regime informado e diretrizes de gestão."
 | --- | --- | --- |
 | Empresa / nome operacional | **Fio Prime** | CONFIRMADO NO PROJETO |
 | Atividade | Comércio eletrônico de produtos, especialmente meias e itens de vestuário/acessórios | CONFIRMADO NO PROJETO |
+| Modelo de produto | Vende apenas produtos de marcas de terceiros; hoje, só os produzidos pela Altomax (Altomax, Hoahi, Rafa Parize, Polo Wear, Reebok, entre outras) | RELATO DATADO, 03/11/2026 (Fábio) |
 | Localidade | **Juiz de Fora, Minas Gerais, Brasil** | CONFIRMADO NO PROJETO, 24/09/2026 |
 | Modalidade de venda | **Exclusivamente on-line**, sem loja física | CONFIRMADO NO PROJETO, 24/09/2026 |
 | Regime tributário informado | **Simples Nacional** | RELATO DATADO, 24/09/2026 |

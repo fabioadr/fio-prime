@@ -1,0 +1,5 @@
+#!/bin/sh
+# $3 = 1 quando troca de branch; ignora checkout de arquivo.
+[ "$3" = "1" ] || exit 0
+sh .githooks/_sync.sh || echo "fio-prime: revise os erros acima em .agents/." >&2
+exit 0

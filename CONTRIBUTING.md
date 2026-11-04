@@ -7,6 +7,9 @@ Este repositório é editado por várias pessoas e por várias LLMs. As regras a
 - **Equipe:** usa a base, propõe correções e registra fatos com fonte. Qualquer um pode abrir uma proposta de mudança.
 - **LLMs:** propõem e redigem; **não decidem**. Toda alteração feita por LLM é revisada por uma pessoa antes do merge.
 
+## Configuração, uma vez por clone
+`git config core.hooksPath .githooks` e `node scripts/sync-ia.mjs`. Detalhes: `docs/ia/automacoes.md`.
+
 ## Fluxo (sem pull request)
 1. `git switch main` e `git pull` para atualizar.
 2. Crie um branch: `git switch -c tipo/assunto` (ex.: `fato/estoque-rafa-parize`, `skill/nova-skill`).

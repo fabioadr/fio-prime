@@ -1,0 +1,3 @@
+#!/bin/sh
+sh .githooks/_sync.sh || echo "fio-prime: revise os erros acima em .agents/." >&2
+exit 0

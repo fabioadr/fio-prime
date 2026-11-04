@@ -64,4 +64,5 @@
 | Arquivo | Quando ler |
 | --- | --- |
 | [`ia/como-usar.md`](ia/como-usar.md) | Como usar a base em cada tipo de ferramenta |
+| [`ia/automacoes.md`](ia/automacoes.md) | Hooks do Git, geração de cópias e por que não há hooks por ferramenta |
 | [`ia/instrucoes-para-chats.md`](ia/instrucoes-para-chats.md) | Texto para o campo de instruções de projetos e assistentes em chat |

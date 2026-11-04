@@ -49,6 +49,7 @@ Use um subagente quando a tarefa for longa, especializada ou pedir revisão inde
 
 ## Manter a base e colaborar
 - Várias pessoas e várias LLMs editam este repositório. Siga `CONTRIBUTING.md` e a skill `registro-conhecimento`: status, data e fonte em todo fato; histórico preservado; decisões só com aprovação; mudanças relevantes no `CHANGELOG.md`.
-- **Padrões, não estruturas próprias:** o que é de IA segue os padrões abertos (`AGENTS.md`, `.agents/skills/`). Subagentes ainda não têm padrão único: a fonte fica em `.agents/agents/`, e `scripts/sync-agents.mjs` gera as cópias de cada ferramenta. O que é do negócio fica em `docs/`. Configurações específicas de ferramenta não são versionadas (ver `.gitignore`).
+- **Padrões, não estruturas próprias:** o que é de IA segue os padrões abertos (`AGENTS.md`, `.agents/skills/`). Subagentes ainda não têm padrão único: a fonte fica em `.agents/agents/`, e `scripts/sync-ia.mjs` gera as cópias de cada ferramenta. O que é do negócio fica em `docs/`. Configurações específicas de ferramenta não são versionadas (ver `.gitignore`).
+- **Agentes e skills:** edite só `.agents/`, nunca as cópias em `.claude/`, `.codex/`, `.gemini/` ou `.github/agents/`. Ao alterar qualquer arquivo em `.agents/`, rode `node scripts/sync-ia.mjs` antes de concluir. Se `git config core.hooksPath` não retornar `.githooks`, avise o usuário (`docs/ia/automacoes.md`).
 - **Git:** commits pequenos, `tipo: assunto` em português; `git status`/`git diff` antes de commitar; nunca `--force` ou `reset --hard` sem pedido.
 - **Agentes em sandbox sem permissão para apagar arquivos:** o git deixa `.lock` em `.git` e os comandos seguintes falham com `File exists`. Peça ao usuário a permissão de exclusão uma vez por sessão e remova só `.lock` órfãos.

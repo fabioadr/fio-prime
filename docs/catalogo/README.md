@@ -15,6 +15,10 @@ resumo: "Marcas, regra de dados por SKU e índice do catálogo."
 - **Rafa Parize:** produtos de meias soquete femininas, inclusive estoque lento.
 - **Altomax:** fornecedor mencionado em compras da Fio Prime; segundo o relato de 24/09/2026, fabrica no **Paraguai** e introduz produtos no Brasil. O usuário compra da Altomax em operação documentada por NF-e. **Não concluir daí que a Fio Prime já seja importadora direta desses itens.**
 
+**Marcas hoje (relato do Fábio, 03/11/2026):** a Fio Prime vende só produtos de terceiros, e apenas os produzidos pela Altomax: Altomax, Hoahi, Rafa Parize, Polo Wear, Reebok, entre outras. Polo Wear e Reebok ainda não têm ficha nesta base. **Toda a produção da Altomax vem da mesma fábrica no Paraguai** (relato do Fábio, 03/11/2026; não implica origem fiscal ou NCM).
+
+**Linha Altomax Fitness Canelado** (top, bermuda, legging, macacão; 03/11/2026): ver [`altomax-fitness-canelado.md`](altomax-fitness-canelado.md) e [`skus-altomax-fitness-canelado.md`](skus-altomax-fitness-canelado.md).
+
 **A VALIDAR:** fabricante/importador efetivo por SKU, marcas adicionais, vinculação entre Altomax e cada item comercializado, códigos EAN/GTIN, NCM, composição e custo.
 
 ## 3.8. Regra para dados de produtos
@@ -30,5 +34,12 @@ Atributos são específicos de **produto/SKU**, não transferíveis automaticame
 | [`fichas/sapatilha-super-invisivel-hoahi-33-38.md`](fichas/sapatilha-super-invisivel-hoahi-33-38.md) | Ficha: kit 3 pares sapatilha super invisível Hoahi 33–38 |
 | [`fichas/meia-masculina-cano-longo-hoahi.md`](fichas/meia-masculina-cano-longo-hoahi.md) | Ficha: meia masculina esportiva cano longo (Hoahi) |
 | [`fichas/soquete-branca-confortavel-rafa-parize-33-38.md`](fichas/soquete-branca-confortavel-rafa-parize-33-38.md) | Ficha: kit 3 pares soquete branca confortável Rafa Parize 33–38 |
+| [`altomax-fitness-canelado.md`](altomax-fitness-canelado.md) | Linha Altomax Fitness Canelado: atributos comuns, refs por cor, divergência catálogo x etiqueta |
+| [`skus-altomax-fitness-canelado.md`](skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN (M, G, GG) da linha Altomax Fitness Canelado |
+| [`altomax-fitness-para-anuncios.md`](altomax-fitness-para-anuncios.md) | Fitness Altomax: o que usar em título, descrição e foto; limites e lacunas |
+| [`fichas/altomax-fitness-canelado-top.md`](fichas/altomax-fitness-canelado-top.md) | Ficha: top canelado Altomax |
+| [`fichas/altomax-fitness-canelado-bermuda.md`](fichas/altomax-fitness-canelado-bermuda.md) | Ficha: bermuda canelada Altomax |
+| [`fichas/altomax-fitness-canelado-legging.md`](fichas/altomax-fitness-canelado-legging.md) | Ficha: legging canelada Altomax |
+| [`fichas/altomax-fitness-canelado-macacao.md`](fichas/altomax-fitness-canelado-macacao.md) | Ficha: macacão canelado Altomax |
 
 Nova ficha: crie `fichas/<produto>.md` com a origem da informação; campos desconhecidos ficam `desconhecido`.

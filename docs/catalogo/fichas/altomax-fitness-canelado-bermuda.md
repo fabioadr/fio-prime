@@ -1,0 +1,38 @@
+---
+title: "Ficha — Bermuda Canelada Altomax (Fitness Canelado)"
+origem: "Catálogo Altomax Fitness 2026, foto da etiqueta e planilha de SKUs (Fábio, 03/11/2026)"
+atualizado_em: "2026-11-03"
+resumo: "Atributos, medidas, referências, ícones e EAN da etiqueta: bermuda canelada Altomax."
+---
+
+# Ficha — Bermuda Canelada Altomax
+
+> Status de confiança: ver `docs/governanca/status-e-fontes.md`. Linha, ícones e precedência das fontes: [`../altomax-fitness-canelado.md`](../altomax-fitness-canelado.md). SKUs e GTIN: [`../skus-altomax-fitness-canelado.md`](../skus-altomax-fitness-canelado.md).
+
+**Origem:** catálogo (PDF), foto da etiqueta e planilha de SKUs, enviados em 03/11/2026. Status: CONFIRMADO NO PROJETO, salvo o marcado A VALIDAR. Em conflito, vale a etiqueta (decisão de 03/11/2026).
+
+| Atributo | Informação |
+| --- | --- |
+| Produto | Bermuda canelada, sem costura (peça avulsa; não é kit) |
+| Tamanhos / SKUs | M, G e GG cadastrados; P ainda não comprado |
+| Cores / referências | Preto 031ALAC26004; marinho 031ALAC26005; cinza 031ALAC26006 |
+| Público | Feminino (relato do Fábio, 03/11/2026; a etiqueta não declara) |
+| Tecido | Canelado |
+| Detalhes | Cintura alta; comprimento curto; elasticidade alta; modelagem tradicional; sem aplicações |
+| Composição | 97,59% poliéster, 2,41% elastano (etiqueta; vale a etiqueta). Catálogo traz 97,06% / 2,94% (descartado) |
+| Ícones da etiqueta | Tecido canelado; sem costura; textura respirável |
+| Benefícios no catálogo | Sem costura; estica sem apertar; leve e macio (textos na visão geral da linha) |
+| Origem | Fabricado no Paraguai; importado pela Altomax (etiqueta) |
+
+## Tabela de medidas (etiqueta)
+| Tam. | Cintura | Quadril |
+| --- | --- | --- |
+| P | 70–78 cm | 88–96 cm |
+| M | 78–82 cm | 96–100 cm |
+| G | 82–86 cm | 100–104 cm |
+| GG | 86–90 cm | 104–108 cm |
+
+## Etiqueta fotografada
+Peça: marinho, tamanho M. Código `031ALAC26005`, descrição interna "BERMUDA ALT BASICO MAR 2". EAN `7908323161671`, igual ao da planilha (M, marinho).
+
+**Não alegar:** efeito modelador ou compressão (modelagem informada: tradicional).

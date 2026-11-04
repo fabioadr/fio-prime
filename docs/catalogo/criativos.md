@@ -50,3 +50,5 @@ resumo: "Padrão de imagens de meias, copy/vídeo, checklist de publicação."
 - [ ] Há logos ou produtos de terceiros desviando a atenção?
 - [ ] Formato/resolução respeitam o canal efetivo de destino?
 - [ ] Houve revisão de português e de preço/desconto?
+
+> Roupas fitness (linha Altomax Fitness Canelado): ver [`altomax-fitness-para-anuncios.md`](altomax-fitness-para-anuncios.md).

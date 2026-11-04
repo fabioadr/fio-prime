@@ -7,11 +7,22 @@ resumo: "Modelos de registro + log (vazio) de decisões e experimentos aprovados
 
 # Registro de decisões e experimentos
 
-> Nenhuma decisão ou experimento foi registrado ainda. Adicione abaixo, mais recentes no topo. Proposta ≠ decisão: só registre como `aprovado` com confirmação do usuário.
+> Adicione abaixo, mais recentes no topo. Proposta ≠ decisão: só registre como `aprovado` com confirmação do usuário.
 
 ## Log
 
-_(vazio)_
+```yaml
+decisao_id: "FP-DEC-2026-001"
+data: "2026-11-03"
+area: "catalogo"
+problema: "Material da Altomax diverge entre catálogo e etiquetas: composição de top, bermuda e legging; referência do macacão cinza no índice; grafia 'm' no tamanho GG"
+evidencia: "Catálogo Altomax Fitness 2026 (PDF), fotos das etiquetas, resposta do Fábio em 03/11/2026"
+opcoes_avaliadas: ["seguir o catálogo", "seguir a etiqueta", "pedir confirmação escrita à Altomax"]
+decisao_aprovada: "Composição: seguir a etiqueta. Referência: vale a página do produto, não o índice. 'm' no GG é erro de grafia: é cm. Ordem geral: etiqueta, página do catálogo, índice."
+responsavel: "Fábio"
+status: "aprovado"
+fonte_interna: "conversa de 03/11/2026; docs/catalogo/altomax-fitness-canelado.md"
+```
 
 ## Modelos
 

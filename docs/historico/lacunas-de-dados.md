@@ -27,3 +27,8 @@ Os itens abaixo **não são fatos ocultos** nem devem ser completados por memór
 | Média | **E-commerce próprio, plataforma e integrações**, se existentes | Apoiar estratégias fora do marketplace sem assumir stack. |
 | Média | **Resultados efetivos de campanhas/testes anteriores** | Não repetir soluções fracassadas nem atribuir ganhos não medidos. |
 | Baixa | **Guia definitivo de tamanhos de imagem e identidade de marca** | Padronizar produção de criativos por canal. |
+| Resolvida (03/11/2026) | **Composição de top, bermuda e legging Altomax** (catálogo x etiqueta) e **medidas de GG** ("m" na etiqueta) | Fábio decidiu: vale a etiqueta; "m" é cm. Ver `decisoes.md` (FP-DEC-2026-001). |
+| Média | **Estoque, custo, margem e canais ativos da linha Altomax Fitness** (M, G e GG já têm SKU e GTIN) | Define anúncios e preço; depende da margem por SKU (linha de cima). |
+| Média | **GTIN dos 6 SKUs em aberto** (top G-Marinho, M-Marinho, GG-Preto; macacão M-Marinho, GG-Cinza, GG-Marinho) e **SKU/GTIN do tamanho P** | O fornecedor não informa antes; vem na NF-e de entrada, ao comprar. |
+| Média | **NCM e origem fiscal por peça** da linha Altomax Fitness (via XML de entrada; não deduzir) | Cadastro fiscal; validar com o contador. |
+| Média | **Insumos da linha fitness Altomax para títulos, descrições e fotos**: fotos reais por peça e cor, peso e embalagem, nome comercial final, termos de busca (com autorização) | Ver `docs/catalogo/altomax-fitness-para-anuncios.md`. |

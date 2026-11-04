@@ -25,12 +25,13 @@ Não se abre pull request. Uma LLM só faz o merge depois da aprovação do resp
 - Cada fato mora em **um** arquivo temático; os outros apontam para ele.
 - Proposta não é decisão: decisões só em `docs/historico/decisoes.md`, com aprovação.
 - **Proibido versionar:** credenciais, e-CNPJ, XMLs de NF-e, chaves de acesso, exports com dados pessoais de clientes. O `.gitignore` bloqueia parte disso, mas a responsabilidade é de quem faz o commit.
-- **Padrões abertos, não estruturas próprias:** tudo que é de IA segue os padrões de mercado (`AGENTS.md` na raiz, skills em `.agents/skills/<nome>/SKILL.md`). Não crie pastas de IA inventadas nem arquivos de uma ferramenta só; configurações locais de ferramenta ficam fora do git.
+- **Padrões abertos, não estruturas próprias:** tudo que é de IA segue os padrões de mercado (`AGENTS.md` na raiz, skills em `.agents/skills/<nome>/SKILL.md`). Exceção documentada: subagentes não têm padrão único, então a fonte fica em `.agents/agents/`, com cópias geradas. Não crie outras pastas de IA nem arquivos de uma ferramenta só; configurações locais de ferramenta ficam fora do git.
 - **Arquivos pequenos:** um tema por arquivo. Se um arquivo passar de ~80 linhas, divida e atualize `docs/README.md`.
 - Mudanças relevantes vão para o `CHANGELOG.md`.
 
 ## Criar uma skill ou um documento
 - **Skill:** siga `.agents/skills/README.md` e adicione-a à tabela do `AGENTS.md`.
+- **Agente:** siga `.agents/agents/README.md` e adicione-o à tabela do `AGENTS.md`.
 - **Documento:** crie-o na pasta do tema em `docs/`, com cabeçalho (`title`, `origem`, `atualizado_em`, `resumo`), e adicione-o a `docs/README.md`.
 
 ## O que fica fora do repositório

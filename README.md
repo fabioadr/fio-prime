@@ -14,9 +14,10 @@ Repositório compartilhado da equipe da Fio Prime. Reúne o que qualquer LLM (Cl
 ```
 AGENTS.md          instruções para qualquer agente (padrão aberto AGENTS.md)
 .agents/skills/    procedimentos reutilizáveis (padrão aberto Agent Skills: <nome>/SKILL.md)
+.agents/agents/    subagentes para handoff de tarefas (fonte única; cópias por ferramenta via scripts/sync-agents.mjs)
 docs/              conhecimento da Fio Prime, em arquivos pequenos por tema (índice: docs/README.md)
 dados/             descrição de exports (os dados em si ficam fora do git)
-scripts/           utilitários (ex.: adaptador de skills para o Claude Code)
+scripts/           utilitários (adaptadores de skills e agentes para as ferramentas)
 CHANGELOG.md       histórico de mudanças da base
 CONTRIBUTING.md    como a equipe colabora
 ```

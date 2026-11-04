@@ -33,11 +33,22 @@ Antes de uma tarefa que corresponda a uma skill, leia o `SKILL.md` dela. Mensage
 | `preparacao-fiscal` | Simples, ICMS, CNAE, NF-e, importação |
 | `registro-conhecimento` · `revisao-final` | Atualizar a base · checar antes de entregar |
 
+## Agentes (`.agents/agents/<nome>.md`)
+Use um subagente quando a tarefa for longa, especializada ou pedir revisão independente. Ele recebe tudo na tarefa, trabalha em contexto próprio e devolve só o relevante. Contrato de handoff e modo sem subagente: `.agents/agents/README.md`. O agente principal fala com o usuário e faz commit, merge e publicação.
+
+| Agente | Quando |
+| --- | --- |
+| `pesquisador-marketplace` · `redator-anuncio` · `revisor-anuncio` | Pesquisar, escrever e revisar anúncio |
+| `diretor-criativo` | Imagem e vídeo |
+| `estrategista-comercial` · `operacoes` | Ads, preço, giro · estoque, Bling, conciliação |
+| `atendimento-ana` · `fiscal-documental` | Mensagens a compradores · dossiê para o contador |
+| `curador-base` | Registrar conhecimento na base |
+
 ## Documentação
 Índice completo, com "quando ler" para cada arquivo: **`docs/README.md`**. Áreas: `docs/empresa/`, `docs/canais/` (Shopee em `docs/canais/shopee/`), `docs/catalogo/` (fichas por produto em `fichas/`), `docs/operacao/`, `docs/fiscal/`, `docs/historico/` (cronologia, decisões, lacunas), `docs/governanca/` (status, atualização, glossário, autoverificação).
 
 ## Manter a base e colaborar
 - Várias pessoas e várias LLMs editam este repositório. Siga `CONTRIBUTING.md` e a skill `registro-conhecimento`: status, data e fonte em todo fato; histórico preservado; decisões só com aprovação; mudanças relevantes no `CHANGELOG.md`.
-- **Padrões, não estruturas próprias:** o que é de IA segue os padrões abertos (`AGENTS.md`, `.agents/skills/`). O que é do negócio fica em `docs/`. Configurações específicas de ferramenta não são versionadas (ver `.gitignore`).
+- **Padrões, não estruturas próprias:** o que é de IA segue os padrões abertos (`AGENTS.md`, `.agents/skills/`). Subagentes ainda não têm padrão único: a fonte fica em `.agents/agents/`, e `scripts/sync-agents.mjs` gera as cópias de cada ferramenta. O que é do negócio fica em `docs/`. Configurações específicas de ferramenta não são versionadas (ver `.gitignore`).
 - **Git:** commits pequenos, `tipo: assunto` em português; `git status`/`git diff` antes de commitar; nunca `--force` ou `reset --hard` sem pedido.
 - **Agentes em sandbox sem permissão para apagar arquivos:** o git deixa `.lock` em `.git` e os comandos seguintes falham com `File exists`. Peça ao usuário a permissão de exclusão uma vez por sessão e remova só `.lock` órfãos.

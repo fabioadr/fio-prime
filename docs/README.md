@@ -55,7 +55,8 @@
 | Arquivo | Quando ler |
 | --- | --- |
 | [`docs/historico/cronologia.md`](historico/cronologia.md) | O que aconteceu e quando |
-| [`docs/historico/decisoes.md`](historico/decisoes.md) | Decisões e experimentos aprovados (com modelos) |
+| [`docs/historico/decisoes.md`](historico/decisoes.md) | Decisões e experimentos |
+| [`historico/decisoes-modelos.md`](historico/decisoes-modelos.md) | Modelos para registrar decisão e experimento |
 | [`docs/historico/lacunas-de-dados.md`](historico/lacunas-de-dados.md) | Dados que faltam |
 
 ## Uso com IA

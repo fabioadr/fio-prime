@@ -31,4 +31,4 @@ Monte primeiro o **núcleo de até 60 caracteres**, que cabe em todos os canais:
 3. Leia depois de 14 a 21 dias, ou mais em produto com pouco volume. Separe os períodos sem estoque.
 4. Mais visitas com menos conversão costuma indicar título genérico demais.
 5. Em anúncio novo, acompanhe impressões, CTR, adição ao carrinho, conversão, perguntas repetidas e devoluções por tamanho.
-6. Registre o teste no modelo de experimento de `docs/historico/decisoes.md`.
+6. Registre o teste em `docs/historico/decisoes.md`, com o modelo de `docs/historico/decisoes-modelos.md`.

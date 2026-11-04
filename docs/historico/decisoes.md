@@ -18,9 +18,9 @@ area: "criativo"
 problema: "A versão 2.0.0 removeu agentes por falta de padrão comum, mas o Fábio precisa de handoff para agentes especializados"
 evidencia: "Pedido do Fábio em 03/11/2026; pesquisa: subagentes têm formato parecido, porém caminhos diferentes em cada ferramenta"
 opcoes_avaliadas: ["só skills", "pasta de uma ferramenta", "fonte em .agents/agents com cópias geradas"]
-decisao_aprovada: "Ter agentes no repositório. Formato proposto: fonte em .agents/agents com cópias geradas; aguarda aprovação no merge."
+decisao_aprovada: "Ter agentes no repositório, com fonte em .agents/agents e cópias geradas (merge aprovado em 03/11/2026). O formato pode mudar: o Fábio pediu para avaliar uma forma mais unificada."
 responsavel: "Fábio"
-status: "proposto"
+status: "aprovado"
 fonte_interna: "conversa de 03/11/2026; .agents/agents/README.md"
 ```
 

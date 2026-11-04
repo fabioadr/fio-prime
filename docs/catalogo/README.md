@@ -38,6 +38,7 @@ Atributos são específicos de **produto/SKU**, não transferíveis automaticame
 | [`skus-altomax-fitness-canelado.md`](skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN (M, G, GG) da linha Altomax Fitness Canelado |
 | [`altomax-fitness-para-anuncios.md`](altomax-fitness-para-anuncios.md) | Fitness Altomax: o que usar em título, descrição e foto; limites e lacunas |
 | [`termos-de-busca-fitness.md`](termos-de-busca-fitness.md) | Termos de busca da linha fitness, com fontes e limites |
+| [`anuncios/legging-canelada-shopee.md`](anuncios/legging-canelada-shopee.md) | Anúncio aprovado: legging canelada na Shopee |
 | [`fichas/altomax-fitness-canelado-top.md`](fichas/altomax-fitness-canelado-top.md) | Ficha: top canelado Altomax |
 | [`fichas/altomax-fitness-canelado-bermuda.md`](fichas/altomax-fitness-canelado-bermuda.md) | Ficha: bermuda canelada Altomax |
 | [`fichas/altomax-fitness-canelado-legging.md`](fichas/altomax-fitness-canelado-legging.md) | Ficha: legging canelada Altomax |

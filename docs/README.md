@@ -33,6 +33,7 @@
 | [`catalogo/altomax-fitness-para-anuncios.md`](catalogo/altomax-fitness-para-anuncios.md) | Fitness Altomax: insumos, limites e lacunas para títulos, descrições e fotos |
 | [`catalogo/skus-altomax-fitness-canelado.md`](catalogo/skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN da linha Altomax Fitness Canelado |
 | [`catalogo/termos-de-busca-fitness.md`](catalogo/termos-de-busca-fitness.md) | Termos de busca da linha fitness |
+| [`catalogo/anuncios/legging-canelada-shopee.md`](catalogo/anuncios/legging-canelada-shopee.md) | Título e descrição aprovados da legging na Shopee |
 | [`catalogo/desempenho-portfolio.md`](catalogo/desempenho-portfolio.md) | Campeões e estoque lento |
 | [`catalogo/precificacao-e-giro.md`](catalogo/precificacao-e-giro.md) | Margem unitária, giro de estoque |
 | [`catalogo/criativos.md`](catalogo/criativos.md) | Fotografia, copy, vídeo, checklist de publicação |

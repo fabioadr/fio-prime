@@ -21,7 +21,7 @@ metadata:
 - [ ] Atendimento: Ana da Fio Prime, sem induzir cancelamento na Shopee, sem cupom não autorizado?
 - [ ] Shopee: descrição em texto puro, sem formatação e sem emojis?
 - [ ] Título: contado com ferramenta, dentro do limite do canal, sem repetição nem termo promocional?
-- [ ] Roupa: marca, composição, origem, conservação e tamanho estão no texto? Foto da etiqueta recomendada?
+- [ ] Roupa: marca, composição, origem, conservação e tamanho estão no texto?
 - [ ] Condições seguem `docs/operacao/condicoes-comerciais.md`, sem citar garantia?
 - [ ] Peça avulsa com foto de várias cores ou peças: o texto deixa claro o que a compradora recebe?
 - [ ] Imagem: listras, cor e proporções preservadas; sem logos?

@@ -19,6 +19,9 @@ Exemplos: Codex, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Claude Code.
 - Configurações locais de ferramentas (`.claude/`, `.gemini/`, `.cursor/`, `.codex/` etc.) não são versionadas.
 - Esses agentes podem editar arquivos e fazer commit: siga `CONTRIBUTING.md`.
 
+### Agentes para handoff
+Subagentes ficam em `.agents/agents/`. Depois de clonar ou alterar, rode `node scripts/sync-agents.mjs`. Em ferramentas sem subagente, use o modo sequencial descrito em `.agents/agents/README.md`. Exemplo: "use o agente revisor-anuncio neste texto".
+
 ## 2. Chats no navegador ou app, ligados ao GitHub (recomendado para o dia a dia)
 Exemplos: projetos no Claude.ai, projetos no ChatGPT, Gems ou chats do Gemini. Pré-requisito: o repositório estar no GitHub (pode ser privado).
 

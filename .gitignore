@@ -24,6 +24,7 @@ dados/*.xlsx
 .codex/
 .opencode/
 .github/skills/
+.github/agents/
 
 # Sistema / editor
 .DS_Store

@@ -19,7 +19,8 @@
 | [`canais/shopee/ads-metricas.md`](canais/shopee/ads-metricas.md) | Fórmulas e dados mínimos de Shopee Ads |
 | [`canais/shopee/ads-estoque-e-diagnostico.md`](canais/shopee/ads-estoque-e-diagnostico.md) | Pausas e rupturas, árvore de causas de ROAS baixo |
 | [`canais/shopee/ads-otimizacao.md`](canais/shopee/ads-otimizacao.md) | Processo de otimização, anúncios em investigação |
-| [`docs/canais/mercado-livre.md`](canais/mercado-livre.md) | Mercado Livre |
+| [`canais/shopee/regras-de-anuncio.md`](canais/shopee/regras-de-anuncio.md) | Shopee: regras e limites de título e descrição |
+| [`docs/canais/mercado-livre.md`](canais/mercado-livre.md) | Mercado Livre, incluindo regras de título e descrição |
 | [`docs/canais/site-proprio.md`](canais/site-proprio.md) | Site próprio e captação de clientes de marketplace |
 | [`docs/canais/tiktok.md`](canais/tiktok.md) · [`docs/canais/amazon.md`](canais/amazon.md) | Canais em estudo |
 
@@ -31,6 +32,8 @@
 | [`catalogo/altomax-fitness-canelado.md`](catalogo/altomax-fitness-canelado.md) | Linha Altomax Fitness Canelado (top, bermuda, legging, macacão): refs, composição, divergências |
 | [`catalogo/altomax-fitness-para-anuncios.md`](catalogo/altomax-fitness-para-anuncios.md) | Fitness Altomax: insumos, limites e lacunas para títulos, descrições e fotos |
 | [`catalogo/skus-altomax-fitness-canelado.md`](catalogo/skus-altomax-fitness-canelado.md) | SKUs e GTIN/EAN da linha Altomax Fitness Canelado |
+| [`catalogo/termos-de-busca-fitness.md`](catalogo/termos-de-busca-fitness.md) | Termos de busca da linha fitness |
+| [`catalogo/anuncios/legging-canelada-shopee.md`](catalogo/anuncios/legging-canelada-shopee.md) | Título e descrição aprovados da legging na Shopee |
 | [`catalogo/desempenho-portfolio.md`](catalogo/desempenho-portfolio.md) | Campeões e estoque lento |
 | [`catalogo/precificacao-e-giro.md`](catalogo/precificacao-e-giro.md) | Margem unitária, giro de estoque |
 | [`catalogo/criativos.md`](catalogo/criativos.md) | Fotografia, copy, vídeo, checklist de publicação |
@@ -42,6 +45,8 @@
 | [`operacao/bling-sincronizacao.md`](operacao/bling-sincronizacao.md) | Bling e divergência de estoque |
 | [`operacao/estoque-para-anuncios.md`](operacao/estoque-para-anuncios.md) | Estoque por variação x anúncios |
 | [`operacao/cadastro-de-produto.md`](operacao/cadastro-de-produto.md) | Campos de cadastro de produto |
+| [`operacao/anuncio-textil-dados-obrigatorios.md`](operacao/anuncio-textil-dados-obrigatorios.md) | Dados da etiqueta têxtil que devem aparecer no anúncio |
+| [`operacao/condicoes-comerciais.md`](operacao/condicoes-comerciais.md) | Nota fiscal, envio, troca e garantia nos anúncios |
 | [`docs/operacao/conciliacao-financeira.md`](operacao/conciliacao-financeira.md) | Conciliação de vendas e devoluções |
 | [`fiscal/situacao-e-cnaes.md`](fiscal/situacao-e-cnaes.md) | Simples, Altomax, ICMS relatado, CNAEs |
 | [`fiscal/societario-e-importacao.md`](fiscal/societario-e-importacao.md) | JUCEMG, endereço, importação própria |
@@ -51,7 +56,8 @@
 | Arquivo | Quando ler |
 | --- | --- |
 | [`docs/historico/cronologia.md`](historico/cronologia.md) | O que aconteceu e quando |
-| [`docs/historico/decisoes.md`](historico/decisoes.md) | Decisões e experimentos aprovados (com modelos) |
+| [`docs/historico/decisoes.md`](historico/decisoes.md) | Decisões e experimentos |
+| [`historico/decisoes-modelos.md`](historico/decisoes-modelos.md) | Modelos para registrar decisão e experimento |
 | [`docs/historico/lacunas-de-dados.md`](historico/lacunas-de-dados.md) | Dados que faltam |
 
 ## Uso com IA

@@ -2,6 +2,19 @@
 
 Mudanças relevantes na base de conhecimento da Fio Prime. Versionamento: PATCH = correção; MINOR = conteúdo novo; MAJOR = mudança estrutural ou de regras de interpretação.
 
+## 2.3.0 — 2026-11-03
+
+- Novo: subagentes em `.agents/agents/` (9 papéis), contrato de handoff e modo sequencial. `scripts/sync-agents.mjs` gera as cópias para Claude Code, Codex, Gemini CLI, Copilot e VS Code; Cursor lê as de Claude e Codex. Retoma, em novo formato, os agentes removidos na 2.0.0.
+- Anúncio aprovado da legging na Shopee em `docs/catalogo/anuncios/`; identificação fiscal fora do anúncio.
+- Registrados na legging: cintura da página 2 e tecido grosso sem transparência (relato, sem teste vestindo). Novos: `docs/operacao/condicoes-comerciais.md` e `docs/catalogo/termos-de-busca-fitness.md`. Decisão FP-DEC-2026-002.
+
+## 2.2.0 — 2026-11-03
+
+- Skill `redacao-anuncio` 2.0.0: fluxo com níveis de evidência, termos de busca, perguntas antes da versão final, ordem fixa da descrição e medição; método em `references/` da skill.
+- Novos: `docs/canais/shopee/regras-de-anuncio.md` e `docs/operacao/anuncio-textil-dados-obrigatorios.md`; seção de regras em `docs/canais/mercado-livre.md`. Fontes externas com data; limites da Shopee divergentes ficam A VALIDAR.
+- `altomax-fitness-para-anuncios.md`: dúvidas por peça e novas pendências. Legging: medidas da peça deitada registradas na ficha, com a cintura A VALIDAR.
+- `otimizacao-anuncio` e `revisao-final` 1.1.0: apontam para o método e ganham checagens de título, dados têxteis e peça avulsa.
+
 ## 2.1.1 — 2026-11-03
 
 - `CONTRIBUTING.md`: fluxo sem pull request; branches por assunto com merge direto na `main`, após aprovação do responsável.

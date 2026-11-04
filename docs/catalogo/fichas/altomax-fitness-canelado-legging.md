@@ -32,6 +32,24 @@ resumo: "Atributos, medidas, referências, ícones e EAN da etiqueta: legging ca
 | G | 82–86 cm | 100–104 cm |
 | GG | 86–90 cm | 104–108 cm |
 
+A etiqueta traz medidas **do corpo**. As medidas da peça estão na seção seguinte.
+
+## Medidas da peça deitada (medição do Fábio; tabela no Canva)
+| Tam. | Cintura (sem esticar a esticada) | Quadril (sem esticar a esticada) | Altura da cintura | Entrepernas | Comprimento |
+| --- | --- | --- | --- | --- | --- |
+| M | 31–42 cm | 36–52 cm | 24 cm | 62 cm | 86 cm |
+| G | 33–44 cm | 36,5–53 cm | 25 cm | 62 cm | 87 cm |
+| GG | 34–46 cm | 37,5–54 cm | 26 cm | 62 cm | 88 cm |
+
+Cós com elástico: 9 cm em todos os tamanhos. Medidas de lado a lado: multiplicar cintura e quadril por 2 para comparar com o corpo. Variação de até 1 cm.
+
+**Cintura:** vale a página 2 da tabela (Fábio, 03/11/2026). A página 1 traz 30–42, 31,5–44 e 33–46 cm: histórico, não usar.
+
+## Observações da peça (RELATO DATADO, Fábio, 03/11/2026)
+- Tecido bem grosso e **não fica transparente**. Avaliação sem ninguém vestindo; cores não especificadas. O catálogo fala em "tecidos leves": para espessura, vale a observação do Fábio.
+- "Não desce durante o movimento": não sabido. **Não alegar** sem prova vestindo.
+- Ninguém vestiu a peça: sem medidas de modelo nem recomendação entre tamanhos.
+
 ## Etiqueta fotografada
 Peça: tamanho M. A foto não mostra o adesivo com código interno nem o EAN. Use a planilha de SKUs, por cor e tamanho.
 

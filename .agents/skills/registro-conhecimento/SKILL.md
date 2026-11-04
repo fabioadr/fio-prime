@@ -20,7 +20,7 @@ metadata:
 | --- | --- |
 | Fato sobre produto, canal, operação, fiscal | Arquivo temático correspondente |
 | Evento datado (o que aconteceu, quando) | `docs/historico/cronologia.md` |
-| Decisão aprovada ou experimento | `docs/historico/decisoes.md` (usar os modelos) |
+| Decisão aprovada ou experimento | `docs/historico/decisoes.md` (modelos em `docs/historico/decisoes-modelos.md`) |
 | Dado que falta e foi descoberto | `docs/historico/lacunas-de-dados.md` |
 | Nova regra de comportamento das LLMs | `AGENTS.md` (curto) |
 

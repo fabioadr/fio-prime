@@ -19,7 +19,8 @@
 | [`canais/shopee/ads-metricas.md`](canais/shopee/ads-metricas.md) | Fórmulas e dados mínimos de Shopee Ads |
 | [`canais/shopee/ads-estoque-e-diagnostico.md`](canais/shopee/ads-estoque-e-diagnostico.md) | Pausas e rupturas, árvore de causas de ROAS baixo |
 | [`canais/shopee/ads-otimizacao.md`](canais/shopee/ads-otimizacao.md) | Processo de otimização, anúncios em investigação |
-| [`docs/canais/mercado-livre.md`](canais/mercado-livre.md) | Mercado Livre |
+| [`canais/shopee/regras-de-anuncio.md`](canais/shopee/regras-de-anuncio.md) | Shopee: regras e limites de título e descrição |
+| [`docs/canais/mercado-livre.md`](canais/mercado-livre.md) | Mercado Livre, incluindo regras de título e descrição |
 | [`docs/canais/site-proprio.md`](canais/site-proprio.md) | Site próprio e captação de clientes de marketplace |
 | [`docs/canais/tiktok.md`](canais/tiktok.md) · [`docs/canais/amazon.md`](canais/amazon.md) | Canais em estudo |
 
@@ -42,6 +43,7 @@
 | [`operacao/bling-sincronizacao.md`](operacao/bling-sincronizacao.md) | Bling e divergência de estoque |
 | [`operacao/estoque-para-anuncios.md`](operacao/estoque-para-anuncios.md) | Estoque por variação x anúncios |
 | [`operacao/cadastro-de-produto.md`](operacao/cadastro-de-produto.md) | Campos de cadastro de produto |
+| [`operacao/anuncio-textil-dados-obrigatorios.md`](operacao/anuncio-textil-dados-obrigatorios.md) | Dados da etiqueta têxtil que devem aparecer no anúncio |
 | [`docs/operacao/conciliacao-financeira.md`](operacao/conciliacao-financeira.md) | Conciliação de vendas e devoluções |
 | [`fiscal/situacao-e-cnaes.md`](fiscal/situacao-e-cnaes.md) | Simples, Altomax, ICMS relatado, CNAEs |
 | [`fiscal/societario-e-importacao.md`](fiscal/societario-e-importacao.md) | JUCEMG, endereço, importação própria |

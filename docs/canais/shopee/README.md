@@ -19,6 +19,9 @@ resumo: "Particularidades da Shopee e índice de Shopee Ads."
 
 **Automação conversacional:** foi relatado que a IA do chat da Shopee pode parar em uma mensagem com opções sem resposta do comprador. Nessas situações, a Fio Prime deseja mensagens humanas de reengajamento com foco em conversão (16/06/2026).
 
+## Título e descrição
+Regras, limites e fontes: [`regras-de-anuncio.md`](regras-de-anuncio.md). Método: skill `redacao-anuncio`.
+
 ## Shopee Ads — arquivos
 | Arquivo | Conteúdo |
 | --- | --- |

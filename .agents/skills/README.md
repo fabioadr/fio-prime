@@ -8,7 +8,7 @@ Skills no padrão aberto **Agent Skills** (<https://agentskills.io/specification
 | --- | --- |
 | [`analise-shopee-ads`](analise-shopee-ads/SKILL.md) | ROAS, ACoS, CTR, CPC, anúncio ruim, pausar ou escalar campanha |
 | [`otimizacao-anuncio`](otimizacao-anuncio/SKILL.md) | Auditar e melhorar página ou anúncio, conversão baixa |
-| [`redacao-anuncio`](redacao-anuncio/SKILL.md) | Título e descrição prontos para colar (Shopee em texto puro) |
+| [`redacao-anuncio`](redacao-anuncio/SKILL.md) | Título e descrição prontos para colar, com evidência, termos de busca e dados obrigatórios (pergunta o que falta antes da versão final) |
 | [`briefing-imagem-produto`](briefing-imagem-produto/SKILL.md) | Foto, edição ou geração de imagem de meia; revisar imagem |
 | [`roteiro-video-produto`](roteiro-video-produto/SKILL.md) | Vídeo curto, gancho, texto na tela |
 | [`atendimento-cliente`](atendimento-cliente/SKILL.md) | Responder comprador como Ana da Fio Prime |

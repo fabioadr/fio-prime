@@ -16,7 +16,7 @@ Base de conhecimento da **Fio Prime** (e-commerce de meias e vestuário, Juiz de
 
 ## Contexto mínimo
 - **Canais:** Shopee e Mercado Livre (operação); site próprio (detalhes a validar); TikTok e Amazon (estudo, sem operação presumida). **Bling** sincroniza estoque.
-- **Marcas:** Hoahi, Rafa Parize; compras da Altomax. **Campeões (08/2026):** kits 3 pares sapatilha *super invisível* e *invisível* Hoahi 33–38. **Estoque lento:** kits soquete Rafa Parize 33–38.
+- **Marcas (relato 03/11/2026):** só produtos de terceiros, hoje apenas os produzidos pela Altomax (Altomax, Hoahi, Rafa Parize, Polo Wear, Reebok, entre outras). **Campeões (08/2026):** kits 3 pares sapatilha *super invisível* e *invisível* Hoahi 33–38. **Estoque lento:** kits soquete Rafa Parize 33–38.
 - Kit de 3 pares ≠ par avulso; SKU, variação e marca não são intercambiáveis.
 
 ## Skills (`.agents/skills/<nome>/SKILL.md`)

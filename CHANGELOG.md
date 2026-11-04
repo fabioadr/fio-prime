@@ -2,6 +2,14 @@
 
 Mudanças relevantes na base de conhecimento da Fio Prime. Versionamento: PATCH = correção; MINOR = conteúdo novo; MAJOR = mudança estrutural ou de regras de interpretação.
 
+## 2.1.0 — 2026-11-03
+
+- Novo: linha **Altomax Fitness Canelado** (top, bermuda, legging, macacão): visão geral com ícones e benefícios, 4 fichas em `docs/catalogo/fichas/` e `docs/catalogo/skus-altomax-fitness-canelado.md` (36 SKUs nos tamanhos M, G e GG: 30 com GTIN e 6 em aberto até a NF-e). Fontes: catálogo Altomax 2026 (sem preços e contatos), fotos de etiquetas e planilha de SKUs.
+- Decisão FP-DEC-2026-001 (`docs/historico/decisoes.md`): composição pela etiqueta, referência pela página do catálogo, "m" = cm.
+- Modelo de produto registrado: só produtos de terceiros, hoje os produzidos pela Altomax (Altomax, Hoahi, Rafa Parize, Polo Wear, Reebok, entre outras). Atualizados `AGENTS.md` (linha de marcas), `docs/empresa/identidade.md` e `docs/catalogo/README.md`.
+- Novo `docs/catalogo/altomax-fitness-para-anuncios.md` (fatos, limites, fotos e lacunas para títulos, descrições e fotos). Registrado: toda a produção da Altomax vem da mesma fábrica no Paraguai e o público de todo o fitness é feminino.
+- Pendências em `docs/historico/lacunas-de-dados.md`; entradas na cronologia; índices atualizados.
+
 ## 2.0.0 — 2026-11-03
 
 - **Estrutura padronizada:** skills movidas para `.agents/skills/` (caminho aberto lido por Codex, Cursor, Copilot, Gemini CLI e OpenCode); removidas as pastas próprias `agentes/` e `comandos/`, porque não há padrão comum para subagentes e as skills já são invocáveis como comando nas ferramentas. Papéis e regras de escalonamento foram incorporados às skills.

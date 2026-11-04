@@ -1,0 +1,16 @@
+#!/bin/sh
+# 1) Bloqueia arquivos sensíveis. 2) Valida e atualiza as cópias de IA se .agents/ mudou.
+sensiveis=$(git diff --cached --name-only --diff-filter=ACMR | grep -iE '(\.(pfx|p12|pem|key|cer|xml)$|(^|/)\.env(\.|$)|(^|/)(secrets|credenciais)/|^dados/(raw|exports)/|^dados/[^/]*\.(csv|xlsx)$)')
+if [ -n "$sensiveis" ]; then
+  echo "fio-prime: commit bloqueado. Arquivo sensível não pode ser versionado (CONTRIBUTING.md):" >&2
+  echo "$sensiveis" >&2
+  exit 1
+fi
+if git diff --cached --name-only | grep -q '^\.agents/'; then
+  if command -v node >/dev/null 2>&1; then
+    node scripts/sync-ia.mjs || { echo "fio-prime: corrija o erro em .agents/ antes do commit." >&2; exit 1; }
+  else
+    echo "fio-prime: Node não encontrado; as cópias de IA não foram atualizadas." >&2
+  fi
+fi
+exit 0

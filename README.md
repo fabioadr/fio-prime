@@ -7,14 +7,14 @@ Repositório compartilhado da equipe da Fio Prime. Reúne o que qualquer LLM (Cl
 | --- | --- |
 | Uma LLM ou agente | [`AGENTS.md`](AGENTS.md) |
 | Pessoa da equipe usando IA no dia a dia | [`docs/ia/como-usar.md`](docs/ia/como-usar.md) |
-| Pessoa da equipe que vai editar a base | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Pessoa da equipe que vai editar a base | [`CONTRIBUTING.md`](CONTRIBUTING.md) e [`docs/ia/automacoes.md`](docs/ia/automacoes.md) |
 | Procurando um assunto | [`docs/README.md`](docs/README.md) |
 
 ## Estrutura
 ```
 AGENTS.md          instruções para qualquer agente (padrão aberto AGENTS.md)
 .agents/skills/    procedimentos reutilizáveis (padrão aberto Agent Skills: <nome>/SKILL.md)
-.agents/agents/    subagentes para handoff de tarefas (fonte única; cópias por ferramenta via scripts/sync-agents.mjs)
+.agents/agents/    subagentes para handoff de tarefas (fonte única; cópias por ferramenta via scripts/sync-ia.mjs)
 docs/              conhecimento da Fio Prime, em arquivos pequenos por tema (índice: docs/README.md)
 dados/             descrição de exports (os dados em si ficam fora do git)
 scripts/           utilitários (adaptadores de skills e agentes para as ferramentas)

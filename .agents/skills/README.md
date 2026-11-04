@@ -25,4 +25,4 @@ Skills no padrão aberto **Agent Skills** (<https://agentskills.io/specification
 4. Não copie fatos da base para dentro da skill: aponte para o arquivo em `docs/`.
 5. Adicione a skill nesta tabela e em `AGENTS.md`.
 
-> **Claude Code** ainda lê skills só em `.claude/skills/`. Rode `node scripts/sync-claude-skills.mjs` para copiá-las para lá (a pasta é ignorada pelo git). Não edite as cópias.
+> **Claude Code** lê skills em `.claude/skills/`. Depois de alterar uma skill, rode `node scripts/sync-ia.mjs`. Não edite as cópias. Automação: `docs/ia/automacoes.md`.

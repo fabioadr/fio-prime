@@ -2,7 +2,7 @@
 
 Definições de subagentes da Fio Prime. Um subagente recebe uma tarefa delimitada, trabalha em contexto próprio e devolve só o resultado ao agente principal.
 
-**Padrão:** ainda não há padrão aberto único para subagentes. O formato comum é Markdown com `name` e `description`, mas cada ferramenta lê um caminho. Esta pasta é a **fonte única** (convenção da Fio Prime no espaço `.agents/`), e `node scripts/sync-agents.mjs` gera as cópias locais, ignoradas pelo git. Pesquisa de 03/11/2026: <https://www.morphllm.com/subagent>; confira a versão da sua ferramenta.
+**Padrão:** ainda não há padrão aberto único para subagentes. O formato comum é Markdown com `name` e `description`, mas cada ferramenta lê um caminho. Esta pasta é a **fonte única** (convenção da Fio Prime no espaço `.agents/`), e `node scripts/sync-ia.mjs` gera as cópias locais, ignoradas pelo git. Os hooks do Git refazem as cópias (`docs/ia/automacoes.md`). Pesquisa de 03/11/2026: <https://www.morphllm.com/subagent>; confira a versão da sua ferramenta.
 
 | Ferramenta | Cópia gerada |
 | --- | --- |
@@ -59,4 +59,4 @@ Abra o arquivo do agente, execute a tarefa nesse papel e entregue no formato do 
 ## Criar um agente
 1. Crie `.agents/agents/<nome>.md` com `name` (igual ao arquivo), `description` (quando acionar) e `readonly`.
 2. No corpo, aponte para as skills e os documentos. Não copie fatos da base.
-3. Atualize esta tabela e a de `AGENTS.md`, e rode `node scripts/sync-agents.mjs`.
+3. Atualize esta tabela e a de `AGENTS.md`, e rode `node scripts/sync-ia.mjs`.

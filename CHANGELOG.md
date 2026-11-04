@@ -2,6 +2,11 @@
 
 Mudanças relevantes na base de conhecimento da Fio Prime. Versionamento: PATCH = correção; MINOR = conteúdo novo; MAJOR = mudança estrutural ou de regras de interpretação.
 
+## 2.4.0 — 2026-11-03
+
+- `scripts/sync-ia.mjs` substitui `sync-agents.mjs` e `sync-claude-skills.mjs`, valida agentes e skills e ganha `--check`.
+- Hooks do Git em `.githooks/`: atualizam as cópias e bloqueiam arquivos sensíveis no commit. Regra em `AGENTS.md`. Guia: `docs/ia/automacoes.md`.
+
 ## 2.3.0 — 2026-11-03
 
 - Novo: subagentes em `.agents/agents/` (9 papéis), contrato de handoff e modo sequencial. `scripts/sync-agents.mjs` gera as cópias para Claude Code, Codex, Gemini CLI, Copilot e VS Code; Cursor lê as de Claude e Codex. Retoma, em novo formato, os agentes removidos na 2.0.0.

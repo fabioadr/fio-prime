@@ -14,13 +14,13 @@ Exemplos: Codex, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Claude Code.
 - Abra a pasta do repositório. Essas ferramentas leem `AGENTS.md` na raiz.
 - Skills em `.agents/skills/` são descobertas nativamente por Codex, Cursor, Copilot, Gemini CLI e OpenCode, e aparecem como `/nome-da-skill` (no Codex, `$nome-da-skill`).
 - **Exceções conhecidas (verifique na versão que você usa):**
-  - *Claude Code:* lê `AGENTS.md` quando não há `CLAUDE.md` (por isso o repositório não tem um), mas só lê skills em `.claude/skills/`. Rode `node scripts/sync-claude-skills.mjs` após cada mudança nas skills. A cópia é local e ignorada pelo git.
+  - *Claude Code:* lê `AGENTS.md` quando não há `CLAUDE.md` (por isso o repositório não tem um), mas só lê skills em `.claude/skills/`. Rode `node scripts/sync-ia.mjs` após cada mudança nas skills. A cópia é local e ignorada pelo git.
   - *Gemini CLI:* se a sua versão não carregar o `AGENTS.md`, configure o arquivo de contexto nas configurações locais da ferramenta para `AGENTS.md`. Não crie `GEMINI.md` no repositório.
 - Configurações locais de ferramentas (`.claude/`, `.gemini/`, `.cursor/`, `.codex/` etc.) não são versionadas.
 - Esses agentes podem editar arquivos e fazer commit: siga `CONTRIBUTING.md`.
 
 ### Agentes para handoff
-Subagentes ficam em `.agents/agents/`. Depois de clonar ou alterar, rode `node scripts/sync-agents.mjs`. Em ferramentas sem subagente, use o modo sequencial descrito em `.agents/agents/README.md`. Exemplo: "use o agente revisor-anuncio neste texto".
+Subagentes ficam em `.agents/agents/`. Depois de clonar ou alterar, rode `node scripts/sync-ia.mjs` (automação: `docs/ia/automacoes.md`). Em ferramentas sem subagente, use o modo sequencial descrito em `.agents/agents/README.md`. Exemplo: "use o agente revisor-anuncio neste texto".
 
 ## 2. Chats no navegador ou app, ligados ao GitHub (recomendado para o dia a dia)
 Exemplos: projetos no Claude.ai, projetos no ChatGPT, Gems ou chats do Gemini. Pré-requisito: o repositório estar no GitHub (pode ser privado).
